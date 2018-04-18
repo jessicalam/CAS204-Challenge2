@@ -1,0 +1,58 @@
+/* Yes, this is blank. That's OK! You're gonna fill this with AWESOME. FS14 */
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+html {
+  background-image: url('background.jpg');
+  margin: 0 auto;
+
+}
+
+body {
+  border: 5px solid #CCCCCC;
+  background: #127BC1;
+  margin: 0 auto;
+  width: 700px;
+  font-family: 'Nunito', sans-serif;
+  padding: 25px;
+}
+
+#nav {
+  float: left;
+  border: 1px solid #D026F5;
+  background-color: #CCCCCC;
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+  margin: 15px;
+  padding: 7px;
+  font-weight: 600;
+
+}
+
+#nav a:link {
+  color: #1793CE;
+  text-decoration: none;
+
+}
+
+ul {
+  text-indent: 1px;
+  color: white;
+  list-style-type: square;
+  font-size: 14px;
+}
+
+h1 {
+  color: #CBCDCC;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav {
+    background-color: pink;
+  }
+}
